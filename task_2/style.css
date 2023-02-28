@@ -11,5 +11,6 @@ body {
 .paragraph {
     color: rgb(95, 75, 146);
     font-weight: bolder;
+    font-size: xx-large;
     text-align: center;
 }
