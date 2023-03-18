@@ -1,0 +1,8 @@
+|id |firstname|lastname   |email                    |city    |age|
+|---|---------|-----------|-------------------------|--------|---|
+|0  |Magdalena|Zuk        |magdalena.n.zuk@gmail.com|Gromadka|29 |
+|1  |Anna     |Bak        |a.bak@gmail.com          |Wroclaw |22 |
+|2  |Iwona    |Karwat     |iwona.k@gmail.com        |Legnica |25 |
+|3  |Monika   |Tabor      |mo.tabor@gmail.com       |Wroclaw |27 |
+|4  |Magdalena|Lewandowska|m.lewandowska@gmail.com  |Gromadka|31 |
+|5  |Karolina |Borek      |kar.bor@gmail.com        |Legnica |23 |
