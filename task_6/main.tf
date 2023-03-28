@@ -45,7 +45,6 @@ resource "google_compute_instance" "dare-id-vm" {
 resource "google_sql_database_instance" "instance" {
   name             = "postgres-task-6"
   database_version = "POSTGRES_14"
-  root_password    = "abcABC123!"
   settings {
     tier = "db-custom-2-7680"
   }
@@ -56,12 +55,10 @@ resource "google_sql_database" "database" {
   name = "dareit"
   instance = "postgres-task-6"
   charset = "utf8"
-  collation = "utf8_general_ci"
 }
 
 resource "google_sql_user" "users" {
   name = "dareit_user"
   instance = "postgres-task-6"
-  host = "%"
-  password = "DareITpassw0rd"
+  password = "abcABC123!"
 }
