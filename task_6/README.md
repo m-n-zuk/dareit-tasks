@@ -1,6 +1,6 @@
 # task_6
 
-### task:
+### things to do:
 > 1. Create main.tf file, configure the provider and add configuration
 > 2. Create Cloud Storage bucket that has public access configured
 > 3. Upload manually the index.html file (that you previously created in Task 1) into the newly created bucket
