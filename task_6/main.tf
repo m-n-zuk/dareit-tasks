@@ -45,10 +45,10 @@ resource "google_compute_instance" "dare-id-vm" {
 resource "google_sql_database_instance" "instance" {
   name             = "postgres-task-6"
   database_version = "POSTGRES_14"
+  root_password    = "abcABC123!"
   settings {
     tier = "db-custom-2-7680"
   }
-  deletion_protection = false
 }
 
 resource "google_sql_database" "database" {
