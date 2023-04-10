@@ -1,4 +1,4 @@
-# task_6
+# Cloud Challenge - `task_6`
 
 ### things to do:
 > 1. Create main.tf file, configure the provider and add configuration
